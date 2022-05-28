@@ -1,0 +1,15 @@
+function lifeInWeeks(age) {
+
+var leftTime = 90-age;
+
+var days = leftTime * 365;
+
+var weeks = leftTime * 52;
+
+var months = leftTime * 12;
+
+console.log("You have " + days + "days," + weeks + " weeks, and " + months + "months left."); 
+
+}
+
+lifeInWeeks(52);
