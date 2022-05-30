@@ -1,0 +1,14 @@
+
+function bmiCalculator(weight, height) {
+
+    var weight = window.prompt("Please enter your weight in kg: ");
+    var height = window.prompt("Please enter your height in m: ");
+    var bmi =weight/height**2;
+    
+    return Math.round(bmi);
+    
+    
+}
+
+var bmi= bmiCalculator(50, 1.8);
+console.log("Your BMI is: "+bmi );
