@@ -1,4 +1,11 @@
 var name1 = window.prompt("Please enter your name: ");
 var name2 = window.prompt("Please enter your loved one's name: ")
 var n= Math.floor((Math.random()*100)+1);
-alert(" The true love score between "+name1+ " and "+name2+" is "+n+" %");
+
+if (n>75) {
+
+    alert(" The true love score between "+name1+ " and "+name2+" is "+n+" % and You love each other a lot.");
+    
+} else {
+    alert(" The true love score between "+name1+ " and "+name2+" is "+n+" %");
+}
