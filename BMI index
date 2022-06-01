@@ -11,9 +11,9 @@ function bmiCalculator(weight, height) {
 
 var bmi= bmiCalculator(50, 1.8);
 
-if (bmi<18.50) {
+if (bmi<18.5) {
     console.log("Your BMI is "+ bmi+ " and You are underweight.");
-} if (bmi=>18.6 && bmi<=24.9){
+} if (bmi >=18.6 && bmi<=24.9){
     console.log ("Your BMI is "+ bmi+ " and Your weight is mormal.");
 } else {
     console.log ("Your BMI is "+ bmi+ " and You are overweight.");
